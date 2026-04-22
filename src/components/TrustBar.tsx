@@ -1,5 +1,5 @@
 const stats = [
-  { value: "+19 Anos", label: "de atuação" },
+  { value: "+15 Anos", label: "de atuação" },
   { value: "2 Unidades", label: "Cocos e Carinhanha" },
   { value: "Causas Complexas", label: "com excelência" },
 ];
