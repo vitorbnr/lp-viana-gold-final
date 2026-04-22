@@ -6,7 +6,7 @@ const units = [
     id: "carinhanha",
     label: "Carinhanha",
     address: "R. do Livramento, 69 - Centro, Carinhanha - BA, 46445-000",
-    phone: "(77) 3485-2489",
+    phone: "(77) 99965-7852",
     mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.0!2d-43.764!3d-14.303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDE4JzEwLjgiUyA0M8KwNDUnNTAuNCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000",
     gps: "https://maps.google.com/?q=R.+do+Livramento,+69+-+Centro,+Carinhanha+-+BA",
   },
