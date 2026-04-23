@@ -41,24 +41,56 @@ const SocialSection = () => (
           href="https://www.facebook.com/VaianaADV/?locale=pt_BR"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-shimmer flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-body font-bold text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-          style={{ background: "#1877F2", color: "#fff", boxShadow: "0 6px 24px rgba(24,119,242,0.35)" }}
+          className="flex items-center justify-center gap-3 px-10 py-4 rounded-xl font-body font-semibold tracking-wide transition-all duration-400"
+          style={{
+            background: "transparent",
+            color: "#D6AF45",
+            border: "1px solid rgba(214,175,69,0.4)",
+            letterSpacing: "0.05em",
+            fontSize: "0.9rem",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(214,175,69,0.25)";
+            e.currentTarget.style.borderColor = "rgba(214,175,69,0.9)";
+            e.currentTarget.style.boxShadow = "0 0 28px rgba(214,175,69,0.35), 0 0 56px rgba(214,175,69,0.12)";
+            e.currentTarget.style.color = "#F5E6A3";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "transparent";
+            e.currentTarget.style.borderColor = "rgba(214,175,69,0.4)";
+            e.currentTarget.style.boxShadow = "none";
+            e.currentTarget.style.color = "#D6AF45";
+          }}
         >
-          <Facebook size={22} />
+          <Facebook size={18} />
           Facebook
         </a>
         <a
           href="https://www.instagram.com/vianaadvocaciaba/"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-shimmer flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-body font-bold text-base transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+          className="flex items-center justify-center gap-3 px-10 py-4 rounded-xl font-body font-semibold tracking-wide transition-all duration-400"
           style={{
-            background: "linear-gradient(135deg, #833AB4, #FD1D1D, #F56040)",
-            color: "#fff",
-            boxShadow: "0 6px 24px rgba(253,29,29,0.3)",
+            background: "transparent",
+            color: "#D6AF45",
+            border: "1px solid rgba(214,175,69,0.4)",
+            letterSpacing: "0.05em",
+            fontSize: "0.9rem",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(214,175,69,0.25)";
+            e.currentTarget.style.borderColor = "rgba(214,175,69,0.9)";
+            e.currentTarget.style.boxShadow = "0 0 28px rgba(214,175,69,0.35), 0 0 56px rgba(214,175,69,0.12)";
+            e.currentTarget.style.color = "#F5E6A3";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "transparent";
+            e.currentTarget.style.borderColor = "rgba(214,175,69,0.4)";
+            e.currentTarget.style.boxShadow = "none";
+            e.currentTarget.style.color = "#D6AF45";
           }}
         >
-          <Instagram size={22} />
+          <Instagram size={18} />
           Instagram
         </a>
       </div>
