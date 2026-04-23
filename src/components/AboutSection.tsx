@@ -82,7 +82,7 @@ const AboutSection = () => (
           Fundado e liderado pelo{" "}
           <strong style={{ color: "#F0D37B" }}>Dr. Wallysson Viana Silva</strong>, o escritório Viana
           Advocacia é referência em advocacia estratégica na Bahia. Com atuação firme e ética,
-          oferecemos soluções jurídicas eficazes para pessoas físicas e jurídicas.
+          oferecemos atendimento especializado e focado em resultados para pessoas físicas e jurídicas.
         </p>
 
         {/* Divider */}
