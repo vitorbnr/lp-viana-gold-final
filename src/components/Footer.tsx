@@ -1,5 +1,13 @@
-import { MapPin, Phone, Mail, MessageCircle, Facebook, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, MessageCircle, Facebook, Instagram, ShieldCheck } from "lucide-react";
 import logoViana from "@/assets/logo-viana.png";
+import {
+  Dialog,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 
 const Footer = () => (
   <footer style={{ background: "#080F09", borderTop: "1px solid rgba(214,175,69,0.15)" }}>
@@ -70,6 +78,77 @@ const Footer = () => (
                 {l.label}
               </a>
             ))}
+
+            {/* Política de Privacidade — abre modal */}
+            <Dialog>
+              <DialogTrigger asChild>
+                <button
+                  type="button"
+                  className="text-left transition-colors duration-200 cursor-pointer"
+                  style={{ color: "rgba(240,211,123,0.55)", background: "none", border: "none", padding: 0, font: "inherit" }}
+                  onMouseEnter={(e) => (e.currentTarget.style.color = "#F0D37B")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(240,211,123,0.55)")}
+                >
+                  Política de Privacidade
+                </button>
+              </DialogTrigger>
+
+              <DialogContent
+                className="sm:rounded-2xl border-0 max-w-xl"
+                style={{
+                  background: "#080F09",
+                  border: "1px solid rgba(214,175,69,0.2)",
+                  boxShadow: "0 24px 64px rgba(0,0,0,0.6), 0 0 48px rgba(214,175,69,0.08)",
+                }}
+              >
+                <DialogHeader>
+                  <div className="flex items-center gap-3 mb-1">
+                    <ShieldCheck size={22} style={{ color: "#D6AF45" }} />
+                    <DialogTitle
+                      className="font-heading font-bold text-lg"
+                      style={{ color: "#F0D37B" }}
+                    >
+                      Política de Privacidade
+                    </DialogTitle>
+                  </div>
+                  <div className="divider-gold w-12 mt-1" style={{ opacity: 0.4 }} />
+                  <DialogDescription asChild>
+                    <div
+                      className="font-body text-sm leading-relaxed space-y-4 pt-4"
+                      style={{ color: "rgba(240,211,123,0.65)" }}
+                    >
+                      <p style={{ color: "rgba(240,211,123,0.45)", fontWeight: 600, fontSize: "0.75rem", textTransform: "uppercase", letterSpacing: "0.15em" }}>
+                        Viana Advocacia
+                      </p>
+
+                      <p>
+                        Este site tem caráter exclusivamente informativo e institucional.{" "}
+                        <strong style={{ color: "#F0D37B" }}>Não utilizamos formulários de captação de dados pessoais.</strong>{" "}
+                        Todo o contato é realizado exclusivamente por meio de redirecionamento para o WhatsApp, cabendo ao usuário a iniciativa de entrar em contato.
+                      </p>
+
+                      <p>
+                        As informações eventualmente compartilhadas durante o atendimento são tratadas com{" "}
+                        <strong style={{ color: "#F0D37B" }}>absoluto sigilo profissional</strong>, em
+                        conformidade com o dever de confidencialidade inerente à advocacia.
+                      </p>
+
+                      <p>
+                        O escritório atua em total observância à{" "}
+                        <strong style={{ color: "#F0D37B" }}>Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018)</strong>{" "}
+                        e ao{" "}
+                        <strong style={{ color: "#F0D37B" }}>Provimento nº 205/2021 do Conselho Federal da OAB</strong>,
+                        que regulamenta a publicidade na advocacia e o uso de tecnologias digitais.
+                      </p>
+
+                      <p>
+                        Nenhum dado pessoal é coletado, armazenado ou compartilhado por meio deste site.
+                      </p>
+                    </div>
+                  </DialogDescription>
+                </DialogHeader>
+              </DialogContent>
+            </Dialog>
           </nav>
         </div>
 
