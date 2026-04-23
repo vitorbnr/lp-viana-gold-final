@@ -84,7 +84,7 @@ const TeamSection = () => (
                   className="absolute top-3 right-3 px-2.5 py-1 rounded-full text-xs font-body font-semibold"
                   style={{ background: "linear-gradient(135deg,#D6AF45,#C89E3F)", color: "#0D1A10" }}
                 >
-                  Fundador
+                  
                 </div>
               )}
             </div>

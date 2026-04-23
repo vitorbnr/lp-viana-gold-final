@@ -56,7 +56,7 @@ const AboutSection = () => (
             boxShadow: "0 8px 32px rgba(140,102,34,0.4)",
           }}
         >
-          OAB/BA 23.825 — Wallysson Viana
+          
         </div>
       </div>
 
