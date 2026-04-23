@@ -1,7 +1,7 @@
 const stats = [
-  { value: "+15 Anos", label: "de atuação" },
+  { value: "Mais de 15 anos de atuação", label: "" },
   { value: "2 Unidades", label: "Cocos e Carinhanha" },
-  { value: "Causas Complexas", label: "com excelência" },
+  { value: "Causas complexas com excelência", label: "" },
 ];
 
 const TrustBar = () => (
