@@ -1,12 +1,36 @@
 import { Clock, Users, Building, Briefcase, ShieldAlert, Scale, ArrowRight } from "lucide-react";
 
 const areas = [
-  { icon: Clock,      title: "Direito Previdenciário",      desc: "Aposentadoria, auxílio-doença, pensões e benefícios do INSS." },
-  { icon: Users,      title: "Direito de Família e Sucessões", desc: "Divórcio, guarda, pensão alimentícia, inventário e partilha." },
-  { icon: Building,   title: "Direito Civil e Imobiliário",  desc: "Contratos, usucapião, ações possessórias e indenizações." },
-  { icon: Briefcase,  title: "Direito Trabalhista",          desc: "Rescisões, horas extras, assédio e reclamações trabalhistas." },
-  { icon: ShieldAlert,title: "Direito Criminal",             desc: "Defesa criminal, audiências de custódia e inquéritos policiais." },
-  { icon: Scale,      title: "Direito Eleitoral e Público",  desc: "Campanhas eleitorais, impugnações e direito administrativo." },
+  {
+    icon: Clock,
+    title: "Direito Previdenciário",
+    desc: "Atuamos na concessão, revisão e restabelecimento de benefícios junto ao INSS, incluindo aposentadorias por idade, tempo de contribuição e especial, auxílio-doença, auxílio-acidente, pensão por morte, BPC/LOAS e salário-maternidade. Também realizamos planejamento previdenciário personalizado para garantir a melhor aposentadoria possível."
+  },
+  {
+    icon: Users,
+    title: "Direito de Família e Sucessões",
+    desc: "Assessoria completa em divórcios judiciais e extrajudiciais, regulamentação de guarda compartilhada ou unilateral, fixação e revisão de pensão alimentícia, reconhecimento e dissolução de união estável, inventários, partilha de bens, testamentos e planejamento sucessório. Priorizamos soluções humanizadas e a proteção dos interesses familiares."
+  },
+  {
+    icon: Building,
+    title: "Direito Civil e Imobiliário",
+    desc: "Elaboração e revisão de contratos de compra, venda, locação e permuta de imóveis, ações de usucapião, reintegração e manutenção de posse, cobranças judiciais e extrajudiciais, ações indenizatórias por danos materiais e morais, além de regularização fundiária e análise de documentação imobiliária para transações seguras."
+  },
+  {
+    icon: Briefcase,
+    title: "Direito Trabalhista",
+    desc: "Representação em reclamações trabalhistas envolvendo verbas rescisórias, horas extras, adicional de insalubridade e periculosidade, assédio moral e sexual, desvio e acúmulo de função, estabilidades provisórias, acidentes de trabalho e reconhecimento de vínculo empregatício. Atuamos tanto na defesa do trabalhador quanto na consultoria preventiva empresarial."
+  },
+  {
+    icon: ShieldAlert,
+    title: "Direito Criminal",
+    desc: "Defesa técnica em todas as fases do processo penal, desde inquéritos policiais e audiências de custódia até tribunais do júri e recursos em instâncias superiores. Atuamos em crimes contra a pessoa, patrimônio, dignidade sexual, crimes de trânsito e infrações de menor potencial ofensivo, sempre buscando a ampla defesa e o devido processo legal."
+  },
+  {
+    icon: Scale,
+    title: "Direito Eleitoral e Público",
+    desc: "Assessoria jurídica completa a candidatos e partidos políticos em registro de candidatura, prestação de contas, propaganda eleitoral, impugnações e ações eleitorais. No âmbito do Direito Público, atuamos em licitações, contratos administrativos, concursos públicos, mandados de segurança e ações contra o poder público em defesa dos direitos do cidadão."
+  },
 ];
 
 const AreasSection = () => (
