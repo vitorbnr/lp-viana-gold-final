@@ -1,5 +1,5 @@
 const stats = [
-  { value: "Mais de 15 anos de atuação", label: "" },
+  { value: "Atendimento Online", label: "Para todo o Brasil" },
   { value: "2 Unidades", label: "Cocos e Carinhanha" },
   { value: "Causas complexas com excelência", label: "" },
 ];

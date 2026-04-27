@@ -11,7 +11,7 @@ const team = [
     name: "Wallysson Viana Silva",
     role: "Advogado Sócio-Fundador",
     oab: "OAB/BA 23.825",
-    desc: "Pós-graduado em Direito Processual Civil e Direito Público.",
+    desc: "Especialista em Direito Processual Civil e Direito Público.",
     img: lawyer1,
     featured: true,
   },
