@@ -172,7 +172,7 @@ const Footer = () => (
               Carinhanha e Cocos, BA
             </p>
             <a
-              href="https://wa.me/5577999657852"
+              href="https://wa.me/5577999657852?text=Ol%C3%A1.%20Preciso%20de%20atendimento%20juridico."
               target="_blank"
               rel="noopener noreferrer"
               className="btn-shimmer inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 hover:scale-105 mt-2"
