@@ -24,12 +24,12 @@ const team = [
     img: lawyer1,
     featured: true,
   },
-  { name: "Dr. Fulano de Tal",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Especialista em Direito.",                          img: lawyer2 },
-  { name: "Dra. Fulana de Tal", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Especialista em Direito Previdenciário.",             img: lawyer3 },
-  { name: "Dr. Fulano de Tal",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Trabalhista.",                   img: lawyer4 },
-  { name: "Dra. Fulana de Tal", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Civil e Imobiliário.",           img: lawyer5 },
-  { name: "Dr. Fulano de Tal",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Especialista em Direito Criminal.",                 img: lawyer6 },
-  { name: "Dra. Fulana de Tal", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Eleitoral e Público.",          img: lawyer7 },
+  { name: "Dr.",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Especialista em Direito.",                          img: lawyer2 },
+  { name: "Dra.", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Especialista em Direito Previdenciário.",             img: lawyer3 },
+  { name: "Dr.",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Trabalhista.",                   img: lawyer4 },
+  { name: "Dra.", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Civil e Imobiliário.",           img: lawyer5 },
+  { name: "Dr.",  role: "Advogado",  oab: "OAB/BA 00.000", desc: "Especialista em Direito Criminal.",                 img: lawyer6 },
+  { name: "Dra.", role: "Advogada",  oab: "OAB/BA 00.000", desc: "Atuação em Direito Eleitoral e Público.",          img: lawyer7 },
 ];
 
 const TeamSection = () => {
