@@ -199,12 +199,16 @@ const TestimonialsSection = () => {
               </div>
 
               {/* Testimonial text with fade transition */}
-              <div className="relative overflow-hidden" style={{ minHeight: "100px" }}>
+              <div className="relative transition-all duration-500">
                 {testimonials.map((t, i) => (
                   <p
                     key={t.name}
-                    className="font-body text-base md:text-lg leading-relaxed italic absolute inset-0 transition-all duration-500"
+                    className="font-body text-base md:text-lg leading-relaxed italic transition-all duration-500"
                     style={{
+                      position: activeIdx === i ? "relative" : "absolute",
+                      top: 0,
+                      left: 0,
+                      width: "100%",
                       color: "rgba(240,211,123,0.75)",
                       opacity: activeIdx === i ? 1 : 0,
                       transform: activeIdx === i ? "translateY(0)" : "translateY(12px)",

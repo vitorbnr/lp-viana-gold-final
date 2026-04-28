@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: "Quais são as áreas de atuação do escritório?",
-    answer: "Atuamos em diversas áreas, incluindo trabalhista, criminal, sucessões, família, contratos e previdenciário. Nossa equipe multidisciplinar está pronta para lhe atender.",
+    answer: "Atuamos nas áreas de direito previdenciário, família e sucessões, civil e imobiliário, trabalhista, criminal, eleitoral e público. Nossa equipe multidisciplinar está pronta para lhe atender.",
   },
   {
     question: "Quais documentos preciso levar no primeiro atendimento?",
