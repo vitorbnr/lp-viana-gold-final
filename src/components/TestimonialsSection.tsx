@@ -37,7 +37,7 @@ const testimonials = [
 ];
 
 const GOOGLE_REVIEWS_URL =
-  "https://www.google.com/maps/place/Viana+Advocacia/@-14.303,-43.764,17z/";
+  "https://www.google.com/maps/search/?api=1&query=Viana+Advocacia,+Carinhanha+-+BA";
 
 const TestimonialsSection = () => {
   const [activeIdx, setActiveIdx] = useState(0);
